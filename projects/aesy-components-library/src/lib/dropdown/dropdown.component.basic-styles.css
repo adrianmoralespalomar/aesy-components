@@ -1,0 +1,89 @@
+button.aesy-dropdown-button.basic-purple{
+  background-color: #5b41aa;
+  color:#ffffff;
+  &:hover{
+    background-color: #2b1f4f;
+  }
+}
+button.aesy-dropdown-button.basic-purple + div.aesy-dropdown-container{
+  background-color: #5b41aa;
+}
+button.aesy-dropdown-button.basic-purple + div.aesy-dropdown-container button{
+  background-color: #ffffff;
+  color:#5b41aa;
+  &:hover{
+    background-color: #c3b4ef;
+  }
+}
+
+button.aesy-dropdown-button.basic-purple2{
+  background-color: #5b41aa;
+  color:#ffffff;
+  &:hover{
+    background-color: #2b1f4f;
+  }
+}
+button.aesy-dropdown-button.basic-purple2 + div.aesy-dropdown-container{
+  background-color: #5b41aa;
+}
+button.aesy-dropdown-button.basic-purple2 + div.aesy-dropdown-container button{
+  background-color: #5b41aa;
+  color:#ffffff;
+  &:hover{
+    background-color: #7452db;
+  }
+}
+
+button.aesy-dropdown-button.basic-orange{
+  background-color: #d7a230;
+  color:#ffffff;
+  &:hover{
+    background-color: #876620;
+  }
+}
+button.aesy-dropdown-button.basic-orange + div.aesy-dropdown-container{
+  background-color: #d7a230;
+}
+button.aesy-dropdown-button.basic-orange + div.aesy-dropdown-container button{
+  background-color: #d7a230;
+  color:#ffffff;
+  &:hover{
+    background-color: #f6bf48;
+  }
+}
+
+button.aesy-dropdown-button.basic-green{
+  background-color: #33b737;
+  color:#ffffff;
+  &:hover{
+    background-color: #247d27;
+  }
+}
+button.aesy-dropdown-button.basic-green + div.aesy-dropdown-container{
+  background-color: #33b737;
+}
+button.aesy-dropdown-button.basic-green + div.aesy-dropdown-container button{
+  background-color: #33b737;
+  color:#ffffff;
+  &:hover{
+    background-color: #3cd341;
+  }
+}
+
+button.aesy-dropdown-button.basic-red{
+  background-color: #b73333;
+  color:#ffffff;
+  &:hover{
+    background-color: #762020;
+  }
+}
+button.aesy-dropdown-button.basic-red + div.aesy-dropdown-container{
+  background-color: #b73333;
+}
+button.aesy-dropdown-button.basic-red + div.aesy-dropdown-container button{
+  background-color: #b73333;
+  color:#ffffff;
+  &:hover{
+    background-color: #db4949;
+  }
+}

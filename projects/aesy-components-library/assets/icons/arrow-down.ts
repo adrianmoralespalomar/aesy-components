@@ -12,10 +12,12 @@ import { Component, Input } from "@angular/core";
   `,
   styles: [`
     .aesy-svg-container{
-      width:0.75rem;
-      height:0.75rem;
       display:flex;
+      height:0.75rem;
+      position:relative;
       transition:transform 0.3s ease;
+      width:0.75rem;
+      z-index: 1;
       &.rotate-arrow{
         transform: rotate(180deg);
       }
