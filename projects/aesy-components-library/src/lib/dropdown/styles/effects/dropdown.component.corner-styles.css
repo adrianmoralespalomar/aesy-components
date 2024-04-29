@@ -1,7 +1,6 @@
 button.aesy-dropdown-button[class*="corner"]{
   &::before{
     content:'';
-    border-radius:0.3rem;
     width: 100%;
     height: 100%;
     left: -85%;

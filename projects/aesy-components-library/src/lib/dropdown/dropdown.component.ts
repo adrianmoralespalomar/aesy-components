@@ -21,7 +21,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
       }
     </div>
   `,
-  styleUrls: ['./dropdown.component.base.css','./dropdown.component.basic-styles.css','./dropdown.component.corner-styles.css','./dropdown.component.left-side-styles.css']
+  styleUrls: ['./dropdown.component.base.css']
 })
 export class DropdownComponent {
   @Input() className: string = '';

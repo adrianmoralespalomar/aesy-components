@@ -1,3 +1,7 @@
+@import url('./styles/colors/dropdown.colors-red.css');
+@import url('./styles/effects/dropdown.component.slide-styles.css');
+@import url('./styles/effects/dropdown.component.basic-styles.css');
+@import url('./styles/effects/dropdown.component.corner-styles.css');
 button.aesy-dropdown-button{
   align-items: center;
   border-radius:0.3rem;

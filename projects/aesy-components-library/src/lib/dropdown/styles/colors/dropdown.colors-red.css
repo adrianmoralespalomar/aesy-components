@@ -1,0 +1,18 @@
+button.aesy-dropdown-button.red{
+  background-color: #b73333;
+  color:#ffffff;
+  &:has(+ div.aesy-dropdown-container.show-container), &::before{
+    background-color: #9d2c2c;
+  }
+}
+button.aesy-dropdown-button.red + div.aesy-dropdown-container{
+  background-color: #9d2c2c;
+}
+button.aesy-dropdown-button.red + div.aesy-dropdown-container button{
+  color:#ffffff;
+  background-color:#9d2c2c;
+  &::before{
+    color:#ffffff;
+    background-color:#b73333;
+  }
+}

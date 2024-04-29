@@ -21,9 +21,10 @@ import { DropdownComponent } from '../../projects/aesy-components-library/src/pu
   </div>
   <br>
   <div>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'left-side-red'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'left-side-red2'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'left-side-red3'"></aesy-dropdown>
+    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-left red'"></aesy-dropdown>
+    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-right red'"></aesy-dropdown>
+    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-top red'"></aesy-dropdown>
+    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-bottom red'"></aesy-dropdown>
   </div>
   `,
   styles: [`
