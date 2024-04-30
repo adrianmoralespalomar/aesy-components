@@ -1,4 +1,4 @@
-button.aesy-dropdown-button[class*="corner"]{
+button.aesy-dropdown-button.corner, button.aesy-dropdown-button.corner + div.aesy-dropdown-container button{
   &::before{
     content:'';
     width: 100%;
@@ -7,31 +7,11 @@ button.aesy-dropdown-button[class*="corner"]{
     position: absolute;
     transform: rotate(-45deg);
     transition:all 0.2s linear;
+    z-index: 0;
   }
   &:hover{
     &::before{
       left: 85%;
     }
-  }
-}
-
-button.aesy-dropdown-button.corner-dark{
-  background-color: #272728;
-  color:#ffffff;
-  &:hover{
-    background-color: #272728;
-  }
-}
-button.aesy-dropdown-button.corner-dark::before{
-  background-color:rgba(255, 255, 255, 0.5);
-}
-button.aesy-dropdown-button.corner-dark + div.aesy-dropdown-container{
-  background-color: #272728;
-}
-button.aesy-dropdown-button.corner-dark + div.aesy-dropdown-container button{
-  background-color: #272728;
-  color:#ffffff;
-  &:hover{
-    background-color: #5e5e5e;
   }
 }

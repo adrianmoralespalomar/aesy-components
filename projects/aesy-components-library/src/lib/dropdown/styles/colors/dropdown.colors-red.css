@@ -4,6 +4,12 @@ button.aesy-dropdown-button.red{
   &:has(+ div.aesy-dropdown-container.show-container), &::before{
     background-color: #9d2c2c;
   }
+  &:is(.basic):hover{
+    background-color: #9d2c2c;
+  }
+  &:is(.basic) + div.aesy-dropdown-container button:hover{
+    background-color: #b73333;
+  }
 }
 button.aesy-dropdown-button.red + div.aesy-dropdown-container{
   background-color: #9d2c2c;

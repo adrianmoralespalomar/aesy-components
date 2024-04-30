@@ -1,4 +1,9 @@
 @import url('./styles/colors/dropdown.colors-red.css');
+@import url('./styles/colors/dropdown.colors-purple.css');
+@import url('./styles/colors/dropdown.colors-green.css');
+@import url('./styles/colors/dropdown.colors-yellow.css');
+@import url('./styles/colors/dropdown.colors-dark.css');
+@import url('./styles/colors/dropdown.colors-light.css');
 @import url('./styles/effects/dropdown.component.slide-styles.css');
 @import url('./styles/effects/dropdown.component.basic-styles.css');
 @import url('./styles/effects/dropdown.component.corner-styles.css');
@@ -14,7 +19,6 @@ button.aesy-dropdown-button{
   overflow: hidden;
   padding:0.625rem 1.25rem;
   position: relative;
-  transition:background-color 0.2s;
   &>span{
     position:relative;
     z-index: 1;
@@ -52,7 +56,6 @@ button.aesy-dropdown-button + div.aesy-dropdown-container button{
   overflow: hidden; 
   padding:0.625rem 1.25rem;
   position: relative;
-  transition:background-color 0.3s;
   &>span{
     position:relative;
     z-index: 1;

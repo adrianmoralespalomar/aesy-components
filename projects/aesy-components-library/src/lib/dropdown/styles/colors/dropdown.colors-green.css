@@ -1,0 +1,24 @@
+button.aesy-dropdown-button.green{
+  background-color: #2da331;
+  color:#ffffff;
+  &:has(+ div.aesy-dropdown-container.show-container), &::before{
+    background-color: #288f2b;
+  }
+  &:is(.basic):hover{
+    background-color: #288f2b;
+  }
+  &:is(.basic) + div.aesy-dropdown-container button:hover{
+    background-color: #2da331;
+  }
+}
+button.aesy-dropdown-button.green + div.aesy-dropdown-container{
+  background-color: #288f2b;
+}
+button.aesy-dropdown-button.green + div.aesy-dropdown-container button{
+  color:#ffffff;
+  background-color:#288f2b;
+  &::before{
+    color:#ffffff;
+    background-color:#2da331;
+  }
+}

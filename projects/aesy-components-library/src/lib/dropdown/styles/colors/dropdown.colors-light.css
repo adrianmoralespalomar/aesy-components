@@ -1,0 +1,24 @@
+button.aesy-dropdown-button.light{
+  background-color: #f0f0f0;
+  color:#171718;
+  &:has(+ div.aesy-dropdown-container.show-container), &::before{
+    background-color: #dedede;
+  }
+  &:is(.basic):hover{
+    background-color: #dedede;
+  }
+  &:is(.basic) + div.aesy-dropdown-container button:hover{
+    background-color: #f0f0f0;
+  }
+}
+button.aesy-dropdown-button.light + div.aesy-dropdown-container{
+  background-color: #dedede;
+}
+button.aesy-dropdown-button.light + div.aesy-dropdown-container button{
+  color:#171718;
+  background-color:#dedede;
+  &::before{
+    color:#171718;
+    background-color:#f0f0f0;
+  }
+}

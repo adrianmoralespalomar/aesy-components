@@ -9,22 +9,28 @@ import { DropdownComponent } from '../../projects/aesy-components-library/src/pu
   imports: [CommonModule, RouterOutlet, DropdownComponent],
   template: `
   <div>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [className]="'pepe'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'basic-purple2'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'basic-orange'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'basic-green'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'basic-red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic purple'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic yellow'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic green'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic dark'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'basic light'" [colorArrow]="'black'"></aesy-dropdown>
   </div>
   <br>
   <div>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'corner-dark'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner purple'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner yellow'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner green'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner dark'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'corner light'" [colorArrow]="'black'"></aesy-dropdown>
   </div>
   <br>
   <div>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-left red'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-right red'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-top red'"></aesy-dropdown>
-    <aesy-dropdown [list]="['JavaScript', 'GO', 'C++']" [label]="'Dropdown'" [styleButton]="'slide-bottom red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'slide-left red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'slide-right red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'slide-top red'"></aesy-dropdown>
+    <aesy-dropdown [list]="list" [label]="'Dropdown'" [styleButton]="'slide-bottom red'"></aesy-dropdown>
   </div>
   `,
   styles: [`
@@ -36,4 +42,5 @@ import { DropdownComponent } from '../../projects/aesy-components-library/src/pu
 })
 export class AppComponent {
   title = 'aesy-components';
+  list = ['JavaScript', 'GO', 'C++'];
 }

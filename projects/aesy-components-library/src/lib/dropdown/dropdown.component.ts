@@ -9,7 +9,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
     <button [class]="className" [class]="styleButton" class="aesy-dropdown-button" (click)="buttonClicked = !buttonClicked">
       <span>{{label}}</span>
       @if(showArrow){ 
-        <aesy-arrow-down [classNameArrow]="classNameArrow" [buttonClicked]="buttonClicked"/>
+        <aesy-arrow-down [classNameArrow]="classNameArrow" [colorArrow]="colorArrow" [buttonClicked]="buttonClicked"/>
       }
     </button>
 
@@ -26,6 +26,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class DropdownComponent {
   @Input() className: string = '';
   @Input() classNameArrow: string = '';
+  @Input() colorArrow = 'white';
   @Input() label: string = '';
   @Input() list: any;
   @Input() styleButton: string = 'basic-purple';
